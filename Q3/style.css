@@ -41,6 +41,7 @@ nav {
 
 a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 option {
@@ -58,7 +59,6 @@ select {
 
 nav > .socialnav > a > i {
   margin-left: 20px;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .socialnav {
