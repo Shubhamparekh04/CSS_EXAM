@@ -32,7 +32,7 @@ body {
 .toppart {
   border: 1px solid #28223f;
   height: 30vh;
-  width: 450px;
+  width: 400px;
   background-image: url(https://scontent.fstv8-1.fna.fbcdn.net/v/t1.6435-9/34162068_180804712632668_742054882848014336_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xwOalWSXq2gAX-G4ZDN&_nc_ht=scontent.fstv8-1.fna&oh=00_AfAOP8TXEuhzbkSDtpYJsxyKVfyCmRRwMDO_Od8geGfCMQ&oe=662BAA52);
   background-size: fill;
   background-repeat: no-repeat;
@@ -43,26 +43,26 @@ body {
 .bottompart {
   border: 1px solid #28223f;
   height: 70vh;
-  width: 450px;
+  width: 400px;
   box-shadow: 0px 0px 15px;
   /* margin: auto; */
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 110px;
+  width: 110px;
   border-radius: 50%;
-  border: 10px solid #231e39;
+  border: 8px solid #231e39;
   box-shadow: 0px 0px 35px black;
   position: absolute;
-  left: 630px;
-  top: 190px;
+  left: 435px;
+  top: 220px;
 }
 
 .parent {
   margin: 100px auto;
   display: flex;
-  height: 70vh;
+  height: 90vh;
   flex-direction: column;
   align-items: center;
   width: fit-content;
