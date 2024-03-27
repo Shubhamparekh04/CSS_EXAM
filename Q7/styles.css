@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+}
+
+ul > li {
+  display: inline-block;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+li:hover{
+    color:lime;
+}
