@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -11,66 +10,85 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <nav>
+      <div class="socialnav">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="title">
+        <h1>Philosophy.</h1>
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+        </form>
+      </div>
+    </nav>
+    <div class="menu">
       <a href="">Home</a>
+      <a href="">Catagories</a>
+      <a href="">Blog</a>
+      <select name="" id="">
+        <option value="">Catagories</option>
+        <option value="">Catagories1</option>
+        <option value="">Catagories2</option>
+      </select>
       <a href="">About</a>
       <a href="">Contact</a>
-      <a href="">Article</a>
-    </nav>
-
+    </div>
     <main>
-      <div>
-        <img id="jscript"
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          alt=""
-          height="200px"
-        />
-
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-          laboriosam repellendus voluptatem, cupiditate exercitationem, at non
-          officiis sequi fuga laborum deserunt vel molestias pariatur nostrum
-          voluptatum. Repellat maiores accusamus inventore.
-        </p>
+      <div class="first-img">
+        <button>MUSIC</button>
+        <h2>What Your Music preference Say About You And Your Personality.</h2>
       </div>
-      <div>
-        <img id="html"
-          src="https://cdn-icons-png.flaticon.com/256/174/174854.png"
-          alt=""
-          height="200px"
-        />
-
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-          laboriosam repellendus voluptatem, cupiditate exercitationem, at non
-          officiis sequi fuga laborum deserunt vel molestias pariatur nostrum
-          voluptatum. Repellat maiores accusamus inventore.
-        </p>
+      <div class="second-third">
+        <div class="second-img">
+          <button>MANAGEMENT</button>
+          <h2>The Pomodoro Technique Really Works</h2>
+        </div>
+        <div class="third-img">
+          <button>LIFESTYLE</button>
+          <h2>Throwback to the good old days</h2>
+        </div>
       </div>
     </main>
     <footer>
-        <form action="">
-          <h1>Signup</h1>
-          <input type="text" name="" id="" placeholder="Name" />
-          <input type="text" placeholder="Surname" />
-          <input type="email" placeholder="Email" />
-          <input type="submit" />
-        </form>
-        <div class="page2">
-          <img src="./logo2.png" alt="" height=" 55px" width="70px" />
-          <div>
-            <a href="https://in.linkedin.com/" target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-  
-            <a href="https://github.com/Shubhamparekh04">
-              <i class="fa-brands fa-github" target="_blank"></i
-            ></a>
-          </div>
+      <form action="">
+        <h1>Signup</h1>
+        <input type="text" name="" id="" placeholder="Name" />
+        <input type="text" placeholder="Surname" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" />
+      </form>
+      <div class="page2">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2412/2412876.png"
+          alt=""
+          height=" 70px"
+          width="70px"
+        />
+        <div>
+          <a href="https://in.linkedin.com/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a href="https://github.com/Shubhamparekh04">
+            <i class="fa-brands fa-github" target="_blank"></i
+          ></a>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>

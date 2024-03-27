@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  paddig: 0px;
+  color: #fff;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://removal.ai/wp-content/uploads/2021/09/black-background-10-hipwallpaper.png);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+form > i {
+  background-color: grey;
+  padding: 5px;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 15px;
+}
+
+.title > form > input {
+  border-radius: 15px 0px 0px 15px;
+  padding: 5px;
+  border: none;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+option {
+  color: black;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+nav > .socialnav > a > i {
+  margin-left: 20px;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+.socialnav {
+  width: 40%;
+}
+
+.title {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  display: flex;
+  /* height: 500px; */
+}
+
+.first-img {
+  width: 70%;
+  background-image: url(https://myhero.com/images/guest/g293090/hero114674/Bob%20Marley%20singing2.jpg);
+  background-repeat: no-repeat;
+  /* height: 300px; */
+  background-size: cover;
+}
+
+.first-img > button {
+  background-color: #05aeed;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 40%;
+  margin-left: 10px;
+}
+
+.first-img > button + h2 {
+  line-height: 40px;
+  margin: 10px;
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+.second-third {
+  width: 50%;
+}
+
+.second-img {
+  background-image: url(https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/283260800_106790815375072_3025384587699432060_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Vih2TKeD3nkAX_YhECO&_nc_ht=scontent.fbdq8-1.fna&oh=00_AfAQAe8WX_MfYQhFGrq7dlf1OImNLvdg3WZmipwk6Lde2A&oe=660988E9);
+
+  height: 221.6475px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-img > button {
+  background-color: #69972c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 10%;
+  margin-left: 10px;
+}
+
+.second-img > button + h2 {
+  line-height: 40px;
+  margin: 10px;
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+.third-img {
+  background-image: url(https://i.pinimg.com/736x/2e/da/55/2eda55d8fd214ee56b35b23514e6d4a9.jpg);
+  height: 221.6475px;
+  background-size: cover;
+  background-position: center;
+}
+
+.third-img > button {
+  background-color: #69972c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 30%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* footer */
+footer > form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  width: fit-content;
+}
+
+footer {
+  margin: 20px auto;
+  display: flex;
+  width: 80%;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+footer > form > input,
+footer > form > h1 {
+  width: 90%;
+  margin: 5px;
+}
+
+footer > form > h1 {
+  text-align: center;
+}
+
+.page2 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%; */
+}
+
+.page2 > div {
+  /* display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0px; */
+}
+.page2 > img {
+  position: relative;
+  top: 75px;
+}
+
+.page2 > div > a {
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
+
+footer > form {
+  width: 40%;
+  background-color: rgba(128, 128, 128, 0.126);
+}
+
+footer > form > input {
+  width: 50%;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+}
+
+footer > form > input:nth-child(6) {
+  width: 40%;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+footer > form > input:nth-child(6):hover {
+  color: lime;
+  background-color: black;
+  transition: 0.5s;
+}
